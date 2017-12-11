@@ -2,6 +2,7 @@ FROM alpine:latest
 LABEL maintainer="Syed Hassaan Ahmed"
 
 RUN apk add --update alpine-sdk openssl-dev curl && \
+    rm -rf /var/cache/apk/* \
     apk add --no-cache git && \
     git clone https://github.com/giltene/wrk2.git && \
     cd wrk2 && make && mv wrk /bin/
