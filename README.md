@@ -1,5 +1,5 @@
 # wrk2-with-online-script
-[![Docker Pulls](https://img.shields.io/docker/pulls/syedhassaanahmed/wrk2-with-online-script.svg)](https://hub.docker.com/r/syedhassaanahmed/wrk2-with-online-script/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/syedhassaanahmed/wrk2-with-online-script.svg?logo=docker)](https://hub.docker.com/r/syedhassaanahmed/wrk2-with-online-script/builds/) [![MicroBadger Size](https://img.shields.io/microbadger/image-size/syedhassaanahmed/wrk2-with-online-script.svg?logo=docker)](https://hub.docker.com/r/syedhassaanahmed/wrk2-with-online-script/tags/) [![Docker Pulls](https://img.shields.io/docker/pulls/syedhassaanahmed/wrk2-with-online-script.svg?logo=docker)](https://hub.docker.com/r/syedhassaanahmed/wrk2-with-online-script/)
 
 Docker image containing the HTTP benchmaring tool [wrk2](https://github.com/giltene/wrk2) with support for online Lua scripts.
 
